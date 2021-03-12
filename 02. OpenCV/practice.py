@@ -1,5 +1,6 @@
 import cv2
 import sys
+import numpy
 
 img1 = cv2.imread('cat.bmp', cv2.IMREAD_GRAYSCALE)
 img2 = cv2.imread('cat.bmp', cv2.IMREAD_COLOR)
@@ -49,3 +50,4 @@ cv2.imshow('img2', img2)
 
 cv2.waitKey()
 cv2.destroyAllWindows()
+
